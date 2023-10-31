@@ -1,0 +1,79 @@
+.imagen {
+    background-image: url(images/image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 50%;
+    border-radius: 15px 0 0 15px;
+}
+
+
+.caja {
+    display: flex;
+    width: 800px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.contenido{
+    width: 50%;
+    padding: 20px;
+}
+
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.fuente-monserrat {
+    font-family: 'Caveat', cursive;
+font-family: 'Fraunces', serif;
+font-family: 'Kalam', cursive;
+font-family: 'Montserrat', sans-serif;
+}
+
+.fuente-frances {
+    font-family: 'Caveat', cursive;
+    font-family: 'Fraunces', serif;
+    font-family: 'Kalam', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tachar{
+    text-decoration: line-through;
+    color:hsl(228, 12%, 48%);
+}
+
+p {
+    font-size: 14px;
+    color:hsl(228, 12%, 48%);
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+
+    padding: 5px 10px;
+}
+
+.verde-agua{
+    color: hsl(158, 36%, 37%);
+}
+
+.gris{
+    color:hsl(228, 12%, 48%);
+}
+
+.botonera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
