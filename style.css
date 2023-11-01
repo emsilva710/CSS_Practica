@@ -2,15 +2,15 @@
     background-image: url(images/image-product-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
-    width: 50%;
+    height: 750px;
+    width: 55%;
     border-radius: 15px 0 0 15px;
 }
 
 
 .caja {
     display: flex;
-    width: 800px;
+    width: 1000px;
     background-color: white;
     border-radius: 15px;
 }
@@ -30,8 +30,6 @@ body{
 }
 
 .fuente-monserrat {
-
-
 font-family: 'Montserrat', sans-serif;
 }
 
@@ -42,36 +40,45 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .tachar{
+    font-size: 20px;
     text-decoration: line-through;
     color:hsl(228, 12%, 48%);
 }
 
 p {
-    font-size: 14px;
+    font-size: 22px;
     color:hsl(228, 12%, 48%);
 }
 
 button{
+    height: 80px;
+    width: 250px;
     background-color: hsl(158, 36%, 37%);
     color: white;
     font-weight: bold;
     border: none;
     border-radius: 5px;
-
     padding: 5px 10px;
 }
 
 .verde-agua{
+    font-size: 50px;
     color: hsl(158, 36%, 37%);
 }
 
-.gris{
+h4{
+    font-size: 30px;
     color:hsl(228, 12%, 48%);
+}
+
+.negro{
+    font-size: 45px;
+    color:hsl(0, 0%, 0%);
 }
 
 .botonera{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px;
+    padding: 30px;
 }
