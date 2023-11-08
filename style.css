@@ -2,22 +2,23 @@
     background-image: url(images/image-product-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 750px;
-    width: 55%;
+    height: 855px;
+    width: 70%;
     border-radius: 15px 0 0 15px;
+    padding: 42px;
 }
 
 
 .caja {
     display: flex;
-    width: 1000px;
+    width: 1070px;
     background-color: white;
     border-radius: 15px;
 }
 
 .contenido{
     width: 50%;
-    padding: 20px;
+    padding: 54px;
 }
 
 
@@ -46,18 +47,20 @@ font-family: 'Montserrat', sans-serif;
 }
 
 p {
-    font-size: 22px;
+    font-size: 25px;
     color:hsl(228, 12%, 48%);
 }
 
 button{
-    height: 80px;
-    width: 250px;
+    font-size: 30px;
+    margin-left: 49px;
+    height: 78px;
+    width: 363px;
     background-color: hsl(158, 36%, 37%);
     color: white;
     font-weight: bold;
     border: none;
-    border-radius: 5px;
+    border-radius: 25px;
     padding: 5px 10px;
 }
 
@@ -67,12 +70,14 @@ button{
 }
 
 h4{
-    font-size: 30px;
-    color:hsl(228, 12%, 48%);
+    letter-spacing: 6px;
+    font-size: 33px;
+    font-weight: 300;
+    color: hsl(228, 12%, 48%);
 }
 
 .negro{
-    font-size: 45px;
+    font-size: 59px;
     color:hsl(0, 0%, 0%);
 }
 
